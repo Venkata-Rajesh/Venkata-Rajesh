@@ -1,0 +1,106 @@
+/* body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+/* 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navigation-menu li {
+  margin: 0;
+}
+
+.navigation-menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.navigation-menu a:hover {
+  background-color: #f2f2f2;
+  color: #333;
+}
+.tooltip {
+  position: relative;
+}
+
+.tooltip:hover::after {
+  content: "Additional information";
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  border-radius: 3px;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+/* CSS Animation */
+/* @keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.element {
+  animation: slide-in 1s ease-in-out;
+} */
+/* CSS Transition */
+/* .element {
+  transition: width 0.3s ease-in-out;
+}
+.element:hover {
+  width: 200px;
+}
+
+.container {
+  column-count: 3;
+  column-gap: 20px;
+} */
+
+.navigation-menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navigation-menu ul {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  list-style: none;
+}
+
+.navigation-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .navigation-menu ul {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  width: 760px;
+  min-width: 400px;
+  height: 400px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
